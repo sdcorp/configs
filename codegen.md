@@ -3,7 +3,7 @@
 ```yaml
 overwrite: true
 schema: 'YOUR_GRAPHQL_SCHEMA_PATH' # source of your graphql schema
-documents: 'src/graphql/**/*.graphql' # destination where to render
+documents: 'src/graphql/**/*.graphql' # destination where to generate
 generates:
   src/generated/graphql.tsx:
     plugins:
